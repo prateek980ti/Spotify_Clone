@@ -1,0 +1,74 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+   display: flex;
+}
+
+.justify-center{
+   justify-content: center;
+}
+
+.items-center{
+   align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+   
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+
+/* Webkit (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333; /* Dark background color */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #666; /* Lighter color for scrollbar thumb */
+    border-radius: 6px;
+    border: 3px solid #333; /* Dark color for scrollbar border */
+  }
+  
+  /* Firefox */
+  /* Note: Firefox doesn't support styling the scrollbar track */
+  /* You can only style the scrollbar thumb */
+  /* The following styles will work in Firefox Nightly with "layout.css.scrollbar-color.enabled" set to true in about:config */
+  /* For older versions of Firefox, the scrollbar will fall back to the default appearance */
+  /* You may need to use a JavaScript solution for better cross-browser compatibility */
+  
+  /* Uncomment the following lines if you want to style Firefox scrollbar thumb */
+  /*
+  html {
+    scrollbar-color: #666 #333;
+  }
+  
+  body {
+    scrollbar-color: #666 #333;
+  }
+  */
+  
